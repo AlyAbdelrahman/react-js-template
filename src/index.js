@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import './i18n';
 import ProviderWrapper from './ProviderWrapper';
 import store from './redux/store';
 import * as serviceWorker from './serviceWorker';

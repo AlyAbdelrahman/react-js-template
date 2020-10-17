@@ -4,6 +4,12 @@ import SecPage from "components/pages/SecPage";
 import DashBoard from 'components/layouts/DashBoard'
 
 const pages = [
+    {
+    exact: true,
+    path: '/',
+    component: FirstPage,
+    layout: DashBoard,
+  },
   {
     exact: true,
     path: LOGIN,
