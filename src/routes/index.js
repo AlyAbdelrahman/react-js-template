@@ -1,12 +1,12 @@
-import { LOGIN, DASHBOARD } from "./paths";
-import FirstPage from "components/pages/FirstPage";
-import SecPage from "components/pages/SecPage";
-import DashBoard from 'components/layouts/DashBoard'
+import FirstPage from 'components/pages/FirstPage';
+import SecPage from 'components/pages/SecPage';
+import DashBoard from 'components/layouts/DashBoard';
+import { LOGIN, DASHBOARD } from './paths';
 
 const pages = [
-    {
+  {
     exact: true,
-    path: '/',
+    path: '',
     component: FirstPage,
     layout: DashBoard,
   },
@@ -17,8 +17,8 @@ const pages = [
     layout: DashBoard,
   },
   {
-    exact: false,
-    path: DASHBOARD,
+    exact: true,
+    path: 'dashboard',
     component: SecPage,
     layout: DashBoard,
   },

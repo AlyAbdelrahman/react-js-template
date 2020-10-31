@@ -1,4 +1,5 @@
-import { createMuiTheme } from "@material-ui/core/styles";
+import { createMuiTheme } from '@material-ui/core/styles';
+import Globals from './constants/Globals';
 
 // Ex.
 // primary colors
@@ -35,8 +36,9 @@ import { createMuiTheme } from "@material-ui/core/styles";
 //   light: "#FFFF",
 // };
 const theme = createMuiTheme({
+  // direction: Globals.direction,x
   breakpoints: {
-    keys: ["xs", "sm", "md", "lg", "xl"],
+    keys: ['xs', 'sm', 'md', 'lg', 'xl'],
     values: {
       xs: 0,
       sm: 600,

@@ -1,4 +1,4 @@
 import * as en from './en.json';
 import * as ar from './ar.json';
 
-export {en, ar};
+export { en, ar };
