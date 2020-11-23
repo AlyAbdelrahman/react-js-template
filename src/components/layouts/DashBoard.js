@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Nav from './Nav';
 
 export default function DashBoard(props) {
-    return (
-        <div>
-            dashboard
-            {props.children}
-        </div>
-    )
+  return (
+    <div>
+      dashboard
+      <Nav />
+      {props.children}
+    </div>
+  );
 }
